@@ -1,5 +1,5 @@
-/*^^^^^^^^Below  the media query for screens above the 1200px  ^^^^^^^^^*/
-@media (min-width:1200px) 
+/*^^^^^^^^Below  the media query for screens  above the 768px and below the 1200px  ^^^^^^^^^*/
+@media (min-width:1200px) {
 .menu {
   color: white;
   display: flex;
@@ -112,14 +112,10 @@
   padding:4px;
 }
 }
-/*^^^^^^^^Above  the media query for screens above the 1200px  ^^^^^^^^^*/
+/*^^^^^^^^Below  the media query for screens  above the 768px and below the 1200px  ^^^^^^^^^*/
 
 /*^^^^^^^^Below  the media query for screens  above the 768px and below the 1200px  ^^^^^^^^^*/
-/*^^^^^^^^Above the media query for screens  above the 768px and below the 1200px  ^^^^^^^^^*/
+/*^^^^^^^^Below  the media query for screens  above the 768px and below the 1200px  ^^^^^^^^^*/
 
-/*^^^^^^^^Below  the media query for screens  above the 480px and below the 768px  ^^^^^^^^^*/
-/*^^^^^^^^Above the media query for screens  above the 480px and below the 768px  ^^^^^^^^^*/
 
-/*^^^^^^^^Below  the media query for screens below the 480px  ^^^^^^^^^*/
-/*^^^^^^^^Above the media query for screens below the 480px  ^^^^^^^^^*/
 

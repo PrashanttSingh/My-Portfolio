@@ -1,5 +1,5 @@
 /*^^^^^^^^Below  the media query for screens above the 1200px  ^^^^^^^^^*/
-@media (min-width:1200px) 
+@media (min-width:1200px) {
 .menu {
   color: white;
   display: flex;
@@ -9,10 +9,7 @@
   margin-top:30px;
   justify-content: space-evenly;
 }
-.vidio{
-  mix-blend-mode:lighten;
-  opacity: 3;
-}
+
 .main{
   display: flex;
   flex-direction: row;

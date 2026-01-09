@@ -73,9 +73,9 @@ body {
   
 .intro{
     
-color: white;
-width: 78%;
-background: rgba(9, 69, 128, 0.3);
+    color: white;
+    width: 78%;
+ background: rgba(9, 69, 128, 0.3);
 backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.05);
 border-radius: 20px;
@@ -226,7 +226,7 @@ padding-bottom: 50px;
 
 
 
-/*^^^^^^^^below  the media query for screens  above 768px and below the 1200px ^^^^^^^^^*/
+/*^^^^^^^^below  the media query for screens  above 769px and below the 1200px ^^^^^^^^^*/
 @media (min-width:768px) and (max-width:1200px){
 body {
   background: radial-gradient(circle at center, #094580, #000);
@@ -304,9 +304,9 @@ body {
   
 .intro{
     
-color: white;
-width: 78%;
-background: rgba(9, 69, 128, 0.3);
+    color: white;
+    width: 78%;
+ background: rgba(9, 69, 128, 0.3);
 backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.05);
 border-radius: 20px;
@@ -535,9 +535,9 @@ body {
   
 .intro{
     
-color: white;
-width: 78%;
-background: rgba(9, 69, 128, 0.3);
+    color: white;
+    width: 78%;
+ background: rgba(9, 69, 128, 0.3);
 backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.05);
 border-radius: 20px;
@@ -552,13 +552,11 @@ margin-top: 20px;
  font-size: 250%;
  height:auto;
  width:auto;
- padding:0%;
 }  
 .prashant{
   font-size: 400%;
   height:auto;
   width:auto;
-  padding: 0%;
   font-weight: bold;
   color: #00E7FF;
 text-shadow: 0 0 5px rgba(0,231,255,0.4);
@@ -695,7 +693,7 @@ padding-bottom: 50px;
 /*^^^^^^^^above  the media query for screens  above 481px and below the 768px ^^^^^^^^^*/
 
 
-/*^^^^^^^^Above  the media query for screens  below the 480px ^^^^^^^^^*/
+/*^^^^^^^^Below  the media query for screens  above 320px and below the 480px ^^^^^^^^^*/
 @media (max-width:480px){
 body {
   background: radial-gradient(circle at center, #094580, #000);
@@ -716,19 +714,18 @@ body {
   100% { transform: translate(200px, 100px); }
 }
 .menu {
-  color: white;
+  color: green;
   display: flex;
   background-color: rgba(255, 0, 0, 0.83);
-  border-radius: 35px;
-  padding:2%;
+  border-radius: 50px;
+  padding:0px;
   margin-top:30px;
-  
+  justify-content: sp;
 }
 .container{
   display:flex;
-  justify-content: center;
-  width: auto; 
-  padding: 1%; 
+  justify-content:  space-evenly;
+  width: 10%;  
 }
 
 
@@ -736,12 +733,12 @@ body {
   display: inline-block;
   background-color: rgba(255, 0, 0, 0.65);
   color:white;
-  align-content:space-around;
+  margin:1%;
   border-radius: 6px;
   text-decoration: none;
-  font-weight: 6;
+  font-weight: 100;
   transition : all 0.3s ease;
-  height: 99%;
+  height: 90%;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
    
    
@@ -760,8 +757,7 @@ body {
   text-shadow: 2px 2px 4px #000000;
   font-size: 220%;
   cursor: pointer;
-  padding-right:2%;
-  
+  padding:0%;
   
 }
   
@@ -922,4 +918,4 @@ padding-bottom: 50px;
   100% { background-position: 1000px 1000px; }
 }
 }
-/*^^^^^^^^Above  the media query for screens  below the 480px ^^^^^^^^^*/
+/*^^^^^^^^Above  the media query for screens  above 320px and below the 480px ^^^^^^^^^*/

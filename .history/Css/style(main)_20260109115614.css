@@ -73,9 +73,9 @@ body {
   
 .intro{
     
-color: white;
-width: 78%;
-background: rgba(9, 69, 128, 0.3);
+    color: white;
+    width: 78%;
+ background: rgba(9, 69, 128, 0.3);
 backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.05);
 border-radius: 20px;
@@ -226,7 +226,7 @@ padding-bottom: 50px;
 
 
 
-/*^^^^^^^^below  the media query for screens  above 768px and below the 1200px ^^^^^^^^^*/
+/*^^^^^^^^below  the media query for screens  above 769px and below the 1200px ^^^^^^^^^*/
 @media (min-width:768px) and (max-width:1200px){
 body {
   background: radial-gradient(circle at center, #094580, #000);
@@ -304,9 +304,9 @@ body {
   
 .intro{
     
-color: white;
-width: 78%;
-background: rgba(9, 69, 128, 0.3);
+    color: white;
+    width: 78%;
+ background: rgba(9, 69, 128, 0.3);
 backdrop-filter: blur(10px);
 border: 1px solid rgba(255, 255, 255, 0.05);
 border-radius: 20px;
@@ -716,7 +716,7 @@ body {
   100% { transform: translate(200px, 100px); }
 }
 .menu {
-  color: white;
+  color: green;
   display: flex;
   background-color: rgba(255, 0, 0, 0.83);
   border-radius: 35px;
