@@ -5,8 +5,8 @@
   display: flex;
   background-color: rgba(255, 0, 0, 0.83);
   border-radius: 50px;
-  padding:0px;
-  margin-top:4%;
+  padding:0%;
+  margin-top:5%;
   justify-content: space-evenly;
 }
 .vidio{
@@ -122,12 +122,10 @@
   display: flex;
   background-color: rgba(255, 0, 0, 0.83);
   border-radius: 50px;
-  padding:0px;
-  padding-right: 7%;
-  margin-top:30px;
-  margin-left: 1%;
-  justify-content: space-around;
-  width: 90%;
+  padding:0%;
+  margin-top:5%;
+  margin-
+  justify-content:space-evenly;
 }
 .vidio{
   mix-blend-mode:lighten;
@@ -143,7 +141,7 @@
 .devloper{
   font-size: 190%;
   text-align: center;
-  color: whitesmoke;
+  color: green;
   font-family: sans-serif;
   background-color: rgba(9, 69, 128, 0.3);
   border-radius: 30px;
@@ -238,16 +236,14 @@
 /*^^^^^^^^Below  the media query for screens  above the 480px and below the 768px  ^^^^^^^^^*/
 @media (min-width:480px) and (max-width:768px) {
 .menu {
-  color: green;
+  color: white;
   display: flex;
   background-color: rgba(255, 0, 0, 0.83);
   border-radius: 50px;
-  padding:0px;
-  margin-top:4%;
+  padding:0%;
+  margin-top:5%;
   justify-content: space-evenly;
-
 }
-
 .vidio{
   mix-blend-mode:lighten;
   opacity: 3;
@@ -369,9 +365,6 @@
   mix-blend-mode:lighten;
   opacity: 3;
   
-}
-.name{
-  padding:10%;
 }
 .main{
   display: flex;
