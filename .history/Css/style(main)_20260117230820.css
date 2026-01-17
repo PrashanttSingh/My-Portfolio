@@ -18,16 +18,6 @@ body {
   0% { transform: translate(0, 0); }
   100% { transform: translate(200px, 100px); }
 }
-
-/* Hide Burger on Desktop */
-.burger-toggle {
-  display: none;
-}
-
-.burger-icon {
-  display: none;
-}
-
 .menu {
   color: white;
   display: flex;
@@ -37,18 +27,18 @@ body {
   margin-top:4%;
   justify-content: space-evenly;
 }
-
 .container{
   display:flex;
   justify-content:  space-evenly;
   width: 60%;  
 }
-
 .tags{
   text-decoration: none;
+
   border-radius: 20px;
-  height: 50px;
-  padding-bottom: 50px;
+ height: 50px;
+ padding-bottom: 50px;
+
 }
 
 .nav-btn {
@@ -61,8 +51,9 @@ body {
   font-weight: 600;
   transition : all 0.3s ease;
   height: 80px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  height: 100px;
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+   height: 100px;
+   
 }
 
 .nav-btn:hover {
@@ -71,93 +62,81 @@ body {
   transform: translatey(-4px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+  
+
 
 .name{
   text-shadow: 2px 2px 4px #000000;
   font-size: 50px;
   cursor: pointer;
-}
+  }
   
 .intro{
-  color: white;
-  width: 78%;
-  background: rgba(9, 69, 128, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction:column;
-  margin-top: 20px;
-}
+    
+color: white;
+width: 78%;
+background: rgba(9, 69, 128, 0.3);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+margin-top: 20px
+  }
 
 .hello{
-  font-size: 60px;
+ font-size: 60px;
 }  
-
 .prashant{
   font-size: 100px;
   font-weight: bold;
   color: #00E7FF;
-  text-shadow: 0 0 5px rgba(0,231,255,0.4);
-}
+text-shadow: 0 0 5px rgba(0,231,255,0.4);
 
-/* CIRCULAR VIDEO - Instagram Style */
-.video-circle {
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 4px solid rgba(0, 231, 255, 0.6);
-  box-shadow: 0 0 20px rgba(0, 231, 255, 0.5);
-  margin-top: 20px;
 }
-
 video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   mix-blend-mode: screen;
   opacity: 0.85;
+  height: 260px;
+  padding-bottom: 20px;
 }
-
 .hero{
   display: flex;
   justify-content: space-evenly;
-}
 
+}
 .curious{
-  color: white;
-  width: 30%;
-  background: rgba(9, 69, 128, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  margin-top: 20px;
-  text-shadow: 2px 2px 4px rgba(9, 69, 128, 0.3);
-  text-align: center;
-  margin-left: 16px;
-  padding-bottom: 50px;
-}
+color: white;
+width: 30%;
+ background: rgba(9, 69, 128, 0.3);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+margin-top: 20px;
+text-shadow: 2px 2px 4px rgba(9, 69, 128, 0.3);
+text-align: center;
+margin-left: 16px;
+padding-bottom: 50px;
 
+
+}
 .heading{
   font-size: 22px;
   font-weight: bold;
   margin-top: 30px;
 }
-
 .paragraph {
   font-size: 20px;
   margin-top: 20px;
   line-height: 1.6;
 }
-
 .project-btn{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
   background-color: rgba(255, 0, 0, 0.83);
   color:whitesmoke;
   padding: 10px 20px;
@@ -168,22 +147,21 @@ video {
   transition : all 0.3s ease;
   height: 48px;
   width: 160px;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
-  border:rgba(255, 255, 255, 0.05) ;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
+   border:rgba(255, 255, 255, 0.05) ;
+  
 }
-
 .project-btn:hover {
   background-color:  rgba(0,231,255,0.4);
   color: #000;
   transform: translatey(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-
 .contact-btn{
-  display: inline-flex;
+ display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(9, 69, 128, 0.5);;
+ background-color: rgba(9, 69, 128, 0.5);;
   color:red;
   padding: 10px 20px;
   border-radius: 10px;
@@ -193,24 +171,21 @@ video {
   transition : all 0.3s ease;
   height: 48px;
   width: 160px;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
-  border:rgba(255, 255, 255, 0.05) ;
-  margin-top:10px;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
+   border:rgba(255, 255, 255, 0.05) ;
+   margin-top:10px
 }
-
 .contact-btn:hover {
   background-color: rgba(0,231,255,0.4);
   color: #000;
   transform: translatey(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-
 .bottom-section{
   display:flex;
   width: 100%;
   margin-bottom: 70px;  
 }
-
 .quote{
   width:63% ;
   margin-left: 20px;
@@ -225,7 +200,6 @@ video {
   font-size:35px;
   text-align: center;
 }
-
 .space-text {
   font-size: 50px;
   font-weight: 700;
@@ -235,9 +209,11 @@ video {
   background-size: cover;
   background-repeat: repeat;
   background-position: 0 0;
+
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+
   animation: moveSpace 18s linear infinite;
 }
 
@@ -247,6 +223,8 @@ video {
 }
 }
 /*^^^^^^^^above  the media query for screens  above 1200px ^^^^^^^^^*/
+
+
 
 /*^^^^^^^^below  the media query for screens  above 768px and below the 1200px ^^^^^^^^^*/
 @media (min-width:768px) and (max-width:1200px){
@@ -268,16 +246,6 @@ body {
   0% { transform: translate(0, 0); }
   100% { transform: translate(200px, 100px); }
 }
-
-/* Hide Burger */
-.burger-toggle {
-  display: none;
-}
-
-.burger-icon {
-  display: none;
-}
-
 .menu {
   color: white;
   display: flex;
@@ -290,18 +258,18 @@ body {
   justify-content: space-around;
   width: 90%;
 }
-
 .container{
   display:flex;
   justify-content:  space-evenly;
   width: 60%;  
 }
-
 .tags{
   text-decoration: none;
+
   border-radius: 20px;
-  height: 50px;
-  padding-bottom: 50px;
+ height: 50px;
+ padding-bottom: 50px;
+
 }
 
 .nav-btn {
@@ -314,8 +282,9 @@ body {
   font-weight: 600;
   transition : all 0.3s ease;
   height: 80px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  height: 100px;
+   text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+   height: 100px;
+   
 }
 
 .nav-btn:hover {
@@ -324,94 +293,83 @@ body {
   transform: translatey(-4px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+  
+
 
 .name{
   text-shadow: 2px 2px 4px #000000;
   font-size: 50px;
   cursor: pointer;
-}
+  }
   
 .intro{
-  color: white;
-  width: 78%;
-  background: rgba(9, 69, 128, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction:column;
-  margin-top: 20px;
-  margin-left:2%;
+    
+color: white;
+width: 78%;
+background: rgba(9, 69, 128, 0.3);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+margin-top: 20px;
+margin-left:2%;
 }
 
 .hello{
-  font-size: 58px;
+ font-size: 58px;
 }  
-
 .prashant{
   font-size: 90px;
   font-weight: bold;
   color: #00E7FF;
-  text-shadow: 0 0 5px rgba(0,231,255,0.4);
-}
+text-shadow: 0 0 5px rgba(0,231,255,0.4);
 
-/* Circular Video */
-.video-circle {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 4px solid rgba(0, 231, 255, 0.6);
-  box-shadow: 0 0 20px rgba(0, 231, 255, 0.5);
-  margin-top: 20px;
 }
-
 video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   mix-blend-mode: screen;
   opacity: 0.85;
+  height: 260px;
+  padding-bottom: 20px;
 }
-
 .hero{
   display: flex;
   justify-content: space-evenly;
-}
+  
 
+}
 .curious{
-  color: white;
-  width: 30%;
-  background: rgba(9, 69, 128, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  margin-top: 20px;
-  text-shadow: 2px 2px 4px rgba(9, 69, 128, 0.3);
-  text-align: center;
-  margin-left: 16px;
-  padding-bottom: 50px;
-}
+color: white;
+width: 30%;
+ background: rgba(9, 69, 128, 0.3);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+margin-top: 20px;
+text-shadow: 2px 2px 4px rgba(9, 69, 128, 0.3);
+text-align: center;
+margin-left: 16px;
+padding-bottom: 50px;
 
+
+}
 .heading{
   font-size: 22px;
   font-weight: bold;
   margin-top: 30px;
 }
-
 .paragraph {
   font-size: 20px;
   margin-top: 20px;
   line-height: 1.6;
 }
-
 .project-btn{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
   background-color: rgba(255, 0, 0, 0.83);
   color:whitesmoke;
   padding: 10px 20px;
@@ -422,22 +380,21 @@ video {
   transition : all 0.3s ease;
   height: 48px;
   width: 160px;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
-  border:rgba(255, 255, 255, 0.05) ;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
+   border:rgba(255, 255, 255, 0.05) ;
+  
 }
-
 .project-btn:hover {
   background-color:  rgba(0,231,255,0.4);
   color: #000;
   transform: translatey(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-
 .contact-btn{
-  display: inline-flex;
+ display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(9, 69, 128, 0.5);;
+ background-color: rgba(9, 69, 128, 0.5);;
   color:red;
   padding: 10px 20px;
   border-radius: 10px;
@@ -447,24 +404,21 @@ video {
   transition : all 0.3s ease;
   height: 48px;
   width: 160px;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
-  border:rgba(255, 255, 255, 0.05) ;
-  margin-top:10px;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
+   border:rgba(255, 255, 255, 0.05) ;
+   margin-top:10px
 }
-
 .contact-btn:hover {
   background-color: rgba(0,231,255,0.4);
   color: #000;
   transform: translatey(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-
 .bottom-section{
   display:flex;
   width: 100%;
   margin-bottom: 70px;  
 }
-
 .quote{
   width:63% ;
   margin-left: 20px;
@@ -479,7 +433,6 @@ video {
   font-size:35px;
   text-align: center;
 }
-
 .space-text {
   font-size: 50px;
   font-weight: 700;
@@ -489,9 +442,11 @@ video {
   background-size: cover;
   background-repeat: repeat;
   background-position: 0 0;
+
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+
   animation: moveSpace 18s linear infinite;
 }
 
@@ -502,7 +457,8 @@ video {
 }
 /*^^^^^^^^above  the media query for screens  above 769px and below the 1200px ^^^^^^^^^*/
 
-/*^^^^^^^^Below  the media query for screens  above 481px and below the 768px - WITH BURGER ^^^^^^^^^*/
+
+/*^^^^^^^^Below  the media query for screens  above 481px and below the 768px ^^^^^^^^^*/
 @media (min-width:480px) and (max-width:768px){
 body {
   background: radial-gradient(circle at center, #094580, #000);
@@ -522,131 +478,76 @@ body {
   0% { transform: translate(0, 0); }
   100% { transform: translate(200px, 100px); }
 }
-
-/* BURGER MENU */
-.burger-toggle {
-  display: none;
-}
-
-.burger-icon {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-  z-index: 1001;
-}
-
-.burger-icon span {
-  width: 28px;
-  height: 3px;
-  background: white;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-}
-
-.burger-toggle:checked ~ .burger-icon span:nth-child(1) {
-  transform: rotate(45deg) translate(8px, 8px);
-}
-
-.burger-toggle:checked ~ .burger-icon span:nth-child(2) {
-  opacity: 0;
-}
-
-.burger-toggle:checked ~ .burger-icon span:nth-child(3) {
-  transform: rotate(-45deg) translate(8px, -8px);
-}
-
 .menu {
-  color: white;
+  color: green;
   display: flex;
   background-color: rgba(255, 0, 0, 0.83);
   border-radius: 50px;
-  padding: 10px 20px;
+  padding:0px;
   margin-top:4%;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
+  justify-content: space-evenly;
 
+}
 .container{
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 75%;
-  max-width: 300px;
-  height: 100vh;
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0.95), rgba(150, 0, 0, 0.95));
-  backdrop-filter: blur(20px);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 80px 20px 20px;
-  gap: 15px;
-  transition: right 0.4s ease;
-  z-index: 1000;
-  box-shadow: -5px 0 20px rgba(0,0,0,0.5);
+  display:flex;
+  justify-content:  space-evenly;
+  width: 60%;  
 }
 
-.burger-toggle:checked ~ .container {
-  right: 0;
-}
-
-.tags {
-  width: 100%;
-  height: auto;
-  padding: 0;
-}
 
 .nav-btn {
-  display: block;
+  display: inline-block;
+  position: relative;
   background-color: rgba(255, 0, 0, 0.65);
   color:white;
-  padding: 15px 20px;
-  border-radius: 10px;
+  padding: 8px 18px;
+  border-radius: 6px;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 60%;
   transition : all 0.3s ease;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  height: auto;
-  width: 100%;
+  height: 82px;
+   
 }
 
 .nav-btn:hover {
   background-color: #ff3366;
   color: #000;
-  transform: translateX(-5px);
+  transform: translatey(-4px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+  
+
 
 .name{
   text-shadow: 2px 2px 4px #000000;
   font-size: 40px;
   cursor: pointer;
-  z-index: 1001;
-}
+  
+  }
   
 .intro{
-  color: white;
-  width: 78%;
-  background: rgba(9, 69, 128, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction:column;
-  margin-top: 20px;
-}
+    
+color: white;
+width: 78%;
+background: rgba(9, 69, 128, 0.3);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+margin-top: 20px;
+  }
 
 .hello{
-  font-size: 250%;
-  height:auto;
-  width:auto;
-  padding:0%;
+ font-size: 250%;
+ height:auto;
+ width:auto;
+ padding:0%;
 }  
-
 .prashant{
   font-size: 400%;
   height:auto;
@@ -654,65 +555,51 @@ body {
   padding: 0%;
   font-weight: bold;
   color: #00E7FF;
-  text-shadow: 0 0 5px rgba(0,231,255,0.4);
-}
+text-shadow: 0 0 5px rgba(0,231,255,0.4);
 
-/* Circular Video */
-.video-circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 4px solid rgba(0, 231, 255, 0.6);
-  box-shadow: 0 0 20px rgba(0, 231, 255, 0.5);
-  margin-top: 20px;
 }
-
 video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   mix-blend-mode: screen;
   opacity: 0.85;
+  height: 260px;
+  padding-bottom: 20px;
 }
-
 .hero{
   display: flex;
   justify-content: space-evenly;
   width: auto;
   margin-left:1%;
-}
 
+}
 .curious{
-  color: white;
-  width: 30%;
-  background: rgba(9, 69, 128, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  margin-top: 20px;
-  text-shadow: 2px 2px 4px rgba(9, 69, 128, 0.3);
-  text-align: center;
-  margin-left: 16px;
-  padding-bottom: 50px;
-}
+color: white;
+width: 30%;
+ background: rgba(9, 69, 128, 0.3);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+margin-top: 20px;
+text-shadow: 2px 2px 4px rgba(9, 69, 128, 0.3);
+text-align: center;
+margin-left: 16px;
+padding-bottom: 50px;
 
+
+}
 .heading{
   font-size: 22px;
   font-weight: bold;
   margin-top: 30px;
 }
-
 .paragraph {
   font-size: 20px;
   margin-top: 20px;
   line-height: 1.6;
 }
-
 .project-btn{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
   background-color: rgba(255, 0, 0, 0.83);
   color:whitesmoke;
   padding: 10px 20px;
@@ -723,22 +610,21 @@ video {
   transition : all 0.3s ease;
   height: 7%;
   width: 60%;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
-  border:rgba(255, 255, 255, 0.05) ;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
+   border:rgba(255, 255, 255, 0.05) ;
+  
 }
-
 .project-btn:hover {
   background-color:  rgba(0,231,255,0.4);
   color: #000;
   transform: translatey(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-
 .contact-btn{
-  display: inline-flex;
+ display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(9, 69, 128, 0.5);;
+ background-color: rgba(9, 69, 128, 0.5);;
   color:red;
   padding: 10px 20px;
   border-radius: 10px;
@@ -748,24 +634,21 @@ video {
   transition : all 0.3s ease;
   height: 7%;
   width: 60%;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
-  border:rgba(255, 255, 255, 0.05) ;
-  margin-top:10px;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
+   border:rgba(255, 255, 255, 0.05) ;
+   margin-top:10px
 }
-
 .contact-btn:hover {
   background-color: rgba(0,231,255,0.4);
   color: #000;
   transform: translatey(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-
 .bottom-section{
   display:flex;
   width: 100%;
   margin-bottom: 70px;  
 }
-
 .quote{
   width:60% ;
   margin-left: 20px;
@@ -780,7 +663,6 @@ video {
   font-size:32px;
   text-align: center;
 }
-
 .space-text {
   font-size: 50px;
   font-weight: 700;
@@ -790,9 +672,11 @@ video {
   background-size: cover;
   background-repeat: repeat;
   background-position: 0 0;
+
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+
   animation: moveSpace 18s linear infinite;
 }
 
@@ -801,9 +685,11 @@ video {
   100% { background-position: 1000px 1000px; }
 }
 }
+
 /*^^^^^^^^above  the media query for screens  above 481px and below the 768px ^^^^^^^^^*/
 
-/*^^^^^^^^Above  the media query for screens  below the 480px - WITH BURGER ^^^^^^^^^*/
+
+/*^^^^^^^^Above  the media query for screens  below the 480px ^^^^^^^^^*/
 @media (max-width:480px){
 body {
   background: radial-gradient(circle at center, #094580, #000);
@@ -823,40 +709,6 @@ body {
   0% { transform: translate(0, 0); }
   100% { transform: translate(200px, 100px); }
 }
-
-/* BURGER MENU */
-.burger-toggle {
-  display: none;
-}
-
-.burger-icon {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  cursor: pointer;
-  z-index: 1001;
-}
-
-.burger-icon span {
-  width: 24px;
-  height: 3px;
-  background: white;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-}
-
-.burger-toggle:checked ~ .burger-icon span:nth-child(1) {
-  transform: rotate(45deg) translate(7px, 7px);
-}
-
-.burger-toggle:checked ~ .burger-icon span:nth-child(2) {
-  opacity: 0;
-}
-
-.burger-toggle:checked ~ .burger-icon span:nth-child(3) {
-  transform: rotate(-45deg) translate(7px, -7px);
-}
-
 .menu {
   color: white;
   display: flex;
@@ -864,151 +716,120 @@ body {
   border-radius: 35px;
   padding:2%;
   margin-top:30px;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+  
 }
-
 .container{
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 80%;
-  max-width: 280px;
-  height: 100vh;
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0.95), rgba(150, 0, 0, 0.95));
-  backdrop-filter: blur(20px);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 70px 15px 15px;
-  gap: 12px;
-  transition: right 0.4s ease;
-  z-index: 1000;
-  box-shadow: -5px 0 20px rgba(0,0,0,0.5);
+  display:flex;
+  justify-content: center;
+  width: auto; 
+  padding: 1%; 
 }
 
-.burger-toggle:checked ~ .container {
-  right: 0;
-}
-
-.tags {
-  width: 100%;
-  height: auto;
-  padding: 0;
-}
 
 .nav-btn {
-  display: block;
+  display: inline-block;
   background-color: rgba(255, 0, 0, 0.65);
   color:white;
-  padding: 12px 15px;
-  border-radius: 8px;
+  align-content:space-around;
+  border-radius: 6px;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 6;
   transition : all 0.3s ease;
+  height: 99%;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  height: auto;
-  width: 100%;
+   
+   
 }
 
 .nav-btn:hover {
   background-color: #ff3366;
   color: #000;
-  transform: translateX(-5px);
+  transform: translatey(-4px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
+  
+
 
 .name{
   text-shadow: 2px 2px 4px #000000;
   font-size: 220%;
   cursor: pointer;
   padding-right:2%;
-  z-index: 1001;
+  
+  
 }
   
 .intro{
-  color: white;
-  width: 95%;
-  height: 200px;
-  background: rgba(9, 69, 128, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction:column;
-  margin-top: 20px;
-}
+    
+color: white;
+width: 95%;
+height: 200px;
+background: rgba(9, 69, 128, 0.3);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+margin-top: 20px;
+
+  }
 
 .hello{
-  font-size: 190%;
+ font-size: 190%;
 }  
-
 .prashant{
   font-size: 350%;
   font-weight: bold;
   color: #00E7FF;
-  text-shadow: 0 0 5px rgba(0,231,255,0.4);
-}
+text-shadow: 0 0 5px rgba(0,231,255,0.4);
 
-/* Circular Video */
-.video-circle {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 3px solid rgba(0, 231, 255, 0.6);
-  box-shadow: 0 0 15px rgba(0, 231, 255, 0.5);
-  margin-top: 20px;
 }
-
 video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   mix-blend-mode: screen;
   opacity:1.9;
-}
+  height: 200px;
+  
+  padding-bottom: 20px;
 
+}
 .hero{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-}
 
+}
 .curious{
-  color: white;
-  width: 100%;
-  background: rgba(9, 69, 128, 0.3);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  margin-top: 20px;
-  text-shadow: 2px 2px 4px rgba(9, 69, 128, 0.3);
-  text-align: center;
-  padding-bottom: 50px;
-}
+color: white;
+width: 100%;
+ background: rgba(9, 69, 128, 0.3);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+border-radius: 20px;
+margin-top: 20px;
+text-shadow: 2px 2px 4px rgba(9, 69, 128, 0.3);
+text-align: center;
 
+padding-bottom: 50px;
+
+
+}
 .heading{
   font-size: 170%;
   font-weight: bold;
   margin-top: 30px;
 }
-
 .paragraph {
   font-size: 190%;
   margin-top: 20px;
   line-height: 1.6;
 }
-
 .project-btn{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
   background-color: rgba(255, 0, 0, 0.83);
   color:whitesmoke;
   padding: 10px 20px;
@@ -1019,22 +840,21 @@ video {
   transition : all 0.3s ease;
   height: 48px;
   width: 87%;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
-  border:rgba(255, 255, 255, 0.05) ;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
+   border:rgba(255, 255, 255, 0.05) ;
+  
 }
-
 .project-btn:hover {
   background-color:  rgba(0,231,255,0.4);
   color: #000;
   transform: translatey(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-
 .contact-btn{
-  display: inline-flex;
+ display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(9, 69, 128, 0.5);;
+ background-color: rgba(9, 69, 128, 0.5);;
   color:red;
   padding: 10px 20px;
   border-radius: 10px;
@@ -1044,27 +864,25 @@ video {
   transition : all 0.3s ease;
   height: 48px;
   width: 87%;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
-  border:rgba(255, 255, 255, 0.05) ;
-  margin-top:10px;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.05);
+   border:rgba(255, 255, 255, 0.05) ;
+   margin-top:10px
 }
-
 .contact-btn:hover {
   background-color: rgba(0,231,255,0.4);
   color: #000;
   transform: translatey(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
-
 .bottom-section{
   display:flex;
   width: 100%;
   margin-bottom: 70px; 
   flex-direction: column; 
 }
-
 .quote{
   width:98% ;
+  
   margin-top: 20px;
   border-radius: 20px;
   background: rgba(9, 69, 128, 0.3);
@@ -1076,7 +894,6 @@ video {
   font-size:30px;
   text-align: center;
 }
-
 .space-text {
   font-size: 49px;
   font-weight: 700;
@@ -1086,9 +903,11 @@ video {
   background-size: cover;
   background-repeat: repeat;
   background-position: 0 0;
+
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+
   animation: moveSpace 18s linear infinite;
 }
 
