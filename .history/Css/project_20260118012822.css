@@ -1,0 +1,833 @@
+/*^^^^^^^^Desktop 1200px+ ^^^^^^^^^*/
+@media (min-width: 1200px) {
+  .burger-toggle {
+    display: none;
+  }
+
+  .burger-icon {
+    display: none;
+  }
+
+  .menu {
+    color: white;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.83);
+    border-radius: 50px;
+    padding: 0px;
+    margin-top: 4%;
+    justify-content: space-evenly;
+  }
+
+  .main-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .project-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 231, 255, 0.2), rgba(9, 69, 128, 0.4));
+    width: 90%;
+    height: 100px;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 0 8px 32px rgba(0, 231, 255, 0.3);
+  }
+
+  .heading-text {
+    color: white;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 20px rgba(0, 231, 255, 0.5);
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 120px;
+    gap: 40px;
+  }
+
+  .project-card {
+    perspective: 1000px;
+    height: 380px;
+  }
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .project-card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 231, 255, 0.3);
+  }
+
+  .card-front {
+    background: linear-gradient(135deg, rgba(0, 231, 255, 0.15), rgba(9, 69, 128, 0.35));
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 231, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-back {
+    background: linear-gradient(135deg, rgba(255, 0, 100, 0.15), rgba(128, 0, 255, 0.35));
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 0, 100, 0.3);
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-icon {
+    color: #00e7ff;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 10px rgba(0, 231, 255, 0.6));
+  }
+
+  .project-title {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .project-desc {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+  }
+
+  .tech-stack {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tech-tag {
+    background: rgba(0, 231, 255, 0.2);
+    color: #00e7ff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 231, 255, 0.4);
+    font-family: sans-serif;
+  }
+
+  .github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #ff0066, #8000ff);
+    color: white;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    box-shadow: 0 10px 30px rgba(255, 0, 100, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  .github-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 40px rgba(255, 0, 100, 0.6);
+  }
+
+  .github-btn svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/*^^^^^^^^Tablet 768px - 1199px ^^^^^^^^^*/
+@media (min-width: 768px) and (max-width: 1199px) {
+  .burger-toggle {
+    display: none;
+  }
+
+  .burger-icon {
+    display: none;
+  }
+
+  .menu {
+    color: white;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.83);
+    border-radius: 50px;
+    padding: 0px 7%;
+    margin-top: 30px;
+    margin-left: 1%;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .main-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .project-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 231, 255, 0.2), rgba(9, 69, 128, 0.4));
+    width: 95%;
+    height: 90px;
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(0, 231, 255, 0.3);
+  }
+
+  .heading-text {
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 40px;
+    gap: 30px;
+  }
+
+  .project-card {
+    perspective: 1000px;
+    height: 350px;
+  }
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .project-card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0, 231, 255, 0.3);
+  }
+
+  .card-front {
+    background: linear-gradient(135deg, rgba(0, 231, 255, 0.15), rgba(9, 69, 128, 0.35));
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 231, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-back {
+    background: linear-gradient(135deg, rgba(255, 0, 100, 0.15), rgba(128, 0, 255, 0.35));
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 0, 100, 0.3);
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-icon {
+    color: #00e7ff;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 10px rgba(0, 231, 255, 0.6));
+  }
+
+  .project-icon svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .project-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .project-desc {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+  }
+
+  .tech-stack {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tech-tag {
+    background: rgba(0, 231, 255, 0.2);
+    color: #00e7ff;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 231, 255, 0.4);
+    font-family: sans-serif;
+  }
+
+  .github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #ff0066, #8000ff);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    box-shadow: 0 10px 30px rgba(255, 0, 100, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  .github-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 40px rgba(255, 0, 100, 0.6);
+  }
+
+  .github-btn svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/*^^^^^^^^Mobile/Small Tablet 480px - 767px ^^^^^^^^^*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .burger-toggle {
+    display: none;
+  }
+
+  .burger-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .burger-icon span {
+    width: 28px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+
+  .burger-toggle:checked ~ .burger-icon span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .burger-toggle:checked ~ .burger-icon span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-toggle:checked ~ .burger-icon span:nth-child(3) {
+    transform: rotate(-45deg) translate(8px, -8px);
+  }
+
+  .menu {
+    color: white;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.83);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 4%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .container {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    max-width: 300px;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.95), rgba(150, 0, 0, 0.95));
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px 20px;
+    gap: 15px;
+    transition: right 0.4s ease;
+    z-index: 1000;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .burger-toggle:checked ~ .container {
+    right: 0;
+  }
+
+  .tags {
+    width: 100%;
+  }
+
+  .nav-btn {
+    display: block;
+    background-color: rgba(255, 0, 0, 0.65);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+
+  .nav-btn:hover {
+    background-color: #ff3366;
+    transform: translateX(-5px);
+  }
+
+  .name {
+    z-index: 1001;
+    font-size: 35px;
+  }
+
+  .main-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .project-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 231, 255, 0.2), rgba(9, 69, 128, 0.4));
+    width: 95%;
+    height: 80px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 231, 255, 0.3);
+  }
+
+  .heading-text {
+    color: white;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+    gap: 25px;
+  }
+
+  .project-card {
+    perspective: 1000px;
+    height: 380px;
+  }
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .project-card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0, 231, 255, 0.3);
+  }
+
+  .card-front {
+    background: linear-gradient(135deg, rgba(0, 231, 255, 0.15), rgba(9, 69, 128, 0.35));
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 231, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-back {
+    background: linear-gradient(135deg, rgba(255, 0, 100, 0.15), rgba(128, 0, 255, 0.35));
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 0, 100, 0.3);
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-icon {
+    color: #00e7ff;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 10px rgba(0, 231, 255, 0.6));
+  }
+
+  .project-icon svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .project-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .project-desc {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+  }
+
+  .tech-stack {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tech-tag {
+    background: rgba(0, 231, 255, 0.2);
+    color: #00e7ff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 231, 255, 0.4);
+    font-family: sans-serif;
+  }
+
+  .github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #ff0066, #8000ff);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    box-shadow: 0 10px 30px rgba(255, 0, 100, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  .github-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/*^^^^^^^^Mobile < 480px ^^^^^^^^^*/
+@media (max-width: 479px) {
+  .burger-toggle {
+    display: none;
+  }
+
+  .burger-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .burger-icon span {
+    width: 24px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+
+  .burger-toggle:checked ~ .burger-icon span:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .burger-toggle:checked ~ .burger-icon span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-toggle:checked ~ .burger-icon span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+
+  .menu {
+    color: white;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.83);
+    border-radius: 50px;
+    padding: 10px 15px;
+    margin: 5% 2%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .container {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 85%;
+    max-width: 280px;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.95), rgba(150, 0, 0, 0.95));
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    padding: 60px 12px 12px;
+    gap: 10px;
+    transition: right 0.4s ease;
+    z-index: 1000;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .burger-toggle:checked ~ .container {
+    right: 0;
+  }
+
+  .tags {
+    width: 100%;
+  }
+
+  .nav-btn {
+    display: block;
+    background-color: rgba(255, 0, 0, 0.65);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+
+  .nav-btn:hover {
+    background-color: #ff3366;
+    transform: translateX(-5px);
+  }
+
+  .name {
+    z-index: 1001;
+    font-size: 28px;
+  }
+
+  .main-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .project-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 231, 255, 0.2), rgba(9, 69, 128, 0.4));
+    width: 95%;
+    height: 70px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 231, 255, 0.3);
+  }
+
+  .heading-text {
+    color: white;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 15px;
+    gap: 20px;
+  }
+
+  .project-card {
+    perspective: 1000px;
+    height: 360px;
+  }
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .project-card:active .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 0 10px 40px rgba(0, 231, 255, 0.3);
+  }
+
+  .card-front {
+    background: linear-gradient(135deg, rgba(0, 231, 255, 0.15), rgba(9, 69, 128, 0.35));
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 231, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-back {
+    background: linear-gradient(135deg, rgba(255, 0, 100, 0.15), rgba(128, 0, 255, 0.35));
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 0, 100, 0.3);
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-icon {
+    color: #00e7ff;
+    margin-bottom: 12px;
+    filter: drop-shadow(0 0 10px rgba(0, 231, 255, 0.6));
+  }
+
+  .project-icon svg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .project-title {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .project-desc {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-family: sans-serif;
+  }
+
+  .tech-stack {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tech-tag {
+    background: rgba(0, 231, 255, 0.2);
+    color: #00e7ff;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 231, 255, 0.4);
+    font-family: sans-serif;
+  }
+
+  .github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #ff0066, #8000ff);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    box-shadow: 0 10px 30px rgba(255, 0, 100, 0.4);
+  }
+
+  .github-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}
