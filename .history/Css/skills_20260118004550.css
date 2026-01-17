@@ -90,14 +90,20 @@
 
   .svgs-left,
   .svgs-right {
-    background: linear-gradient(135deg, rgba(0, 231, 255, 0.2), rgba(9, 69, 128, 0.3));
+    background: linear-gradient(
+      135deg,
+      rgba(0, 231, 255, 0.2),
+      rgba(9, 69, 128, 0.3)
+    );
     width: 18%;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    transition: transform 0.3s ease, background 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      background 0.3s ease;
     overflow-y: auto;
     padding: 20px 10px;
     max-height: 600px;
@@ -105,12 +111,24 @@
 
   .svgs-left:hover {
     transform: translateX(5px);
-    background: linear-gradient(120deg, #00c6ff, #7d5fff, black, rgb(109, 13, 13));
+    background: linear-gradient(
+      120deg,
+      #00c6ff,
+      #7d5fff,
+      black,
+      rgb(109, 13, 13)
+    );
   }
 
   .svgs-right:hover {
     transform: translateX(-5px);
-    background: linear-gradient(120deg, #00c6ff, #7d5fff, black, rgb(109, 13, 13));
+    background: linear-gradient(
+      120deg,
+      #00c6ff,
+      #7d5fff,
+      black,
+      rgb(109, 13, 13)
+    );
   }
 
   .svgs-left svg,
@@ -151,7 +169,7 @@
 }
 
 /*^^^^^^^^Tablet 768px - 1200px ^^^^^^^^^*/
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .burger-toggle {
     display: none;
   }
@@ -239,7 +257,11 @@
 
   .svgs-left,
   .svgs-right {
-    background: linear-gradient(135deg, rgba(0, 231, 255, 0.2), rgba(9, 69, 128, 0.3));
+    background: linear-gradient(
+      135deg,
+      rgba(0, 231, 255, 0.2),
+      rgba(9, 69, 128, 0.3)
+    );
     width: 20%;
     border-radius: 30px;
     display: flex;
@@ -253,12 +275,24 @@
 
   .svgs-left:hover {
     transform: translateX(5px);
-    background: linear-gradient(120deg, #00c6ff, #7d5fff, black, rgb(109, 13, 13));
+    background: linear-gradient(
+      120deg,
+      #00c6ff,
+      #7d5fff,
+      black,
+      rgb(109, 13, 13)
+    );
   }
 
   .svgs-right:hover {
     transform: translateX(-5px);
-    background: linear-gradient(120deg, #00c6ff, #7d5fff, black, rgb(109, 13, 13));
+    background: linear-gradient(
+      120deg,
+      #00c6ff,
+      #7d5fff,
+      black,
+      rgb(109, 13, 13)
+    );
   }
 
   .svg-text {
@@ -293,7 +327,7 @@
 }
 
 /*^^^^^^^^Mobile/Small Tablet 480px - 768px WITH BURGER ^^^^^^^^^*/
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 768px) {
   /* BURGER MENU */
   .burger-toggle {
     display: none;
@@ -346,7 +380,11 @@
     width: 75%;
     max-width: 300px;
     height: 100vh;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.95), rgba(150, 0, 0, 0.95));
+    background: linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0.95),
+      rgba(150, 0, 0, 0.95)
+    );
     backdrop-filter: blur(20px);
     display: flex;
     flex-direction: column;
@@ -395,9 +433,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 4%;
     gap: 20px;
-    padding: 0 10px;
   }
 
   .video-circle {
@@ -451,14 +488,20 @@
 
   .svgs-left,
   .svgs-right {
-    background: linear-gradient(135deg, rgba(0, 231, 255, 0.2), rgba(9, 69, 128, 0.3));
+    background: linear-gradient(
+      135deg,
+      rgba(0, 231, 255, 0.2),
+      rgba(9, 69, 128, 0.3)
+    );
     width: 95%;
     border-radius: 30px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    place-items: center;
+    gap: 15px;
   }
 
   .svgs-left {
@@ -471,17 +514,15 @@
 
   .svgs-left svg,
   .svgs-right svg {
-    width: 45px;
-    height: auto;
+    margin: 0;
   }
 
   .svg-text {
     color: whitesmoke;
-    font-size: 13px;
+    font-size: 14px;
+    width: 100%;
     text-align: center;
-    margin-top: 5px;
-    font-family: sans-serif;
-    font-weight: 500;
+    margin: 0;
   }
 
   .next-js {
@@ -496,7 +537,7 @@
 }
 
 /*^^^^^^^^Mobile < 480px WITH BURGER ^^^^^^^^^*/
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   /* BURGER MENU */
   .burger-toggle {
     display: none;
@@ -535,8 +576,8 @@
     display: flex;
     background-color: rgba(255, 0, 0, 0.83);
     border-radius: 50px;
-    padding: 10px 15px;
-    margin: 5% 2%;
+    padding: 2%;
+    margin-top: 5%;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -546,158 +587,19 @@
     position: fixed;
     top: 0;
     right: -100%;
-    width: 85%;
+    width: 80%;
     max-width: 280px;
     height: 100vh;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.95), rgba(150, 0, 0, 0.95));
+    background: linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0.95),
+      rgba(150, 0, 0, 0.95)
+    );
     backdrop-filter: blur(20px);
     display: flex;
     flex-direction: column;
-    padding: 60px 12px 12px;
-    gap: 10px;
+    padding: 70px 15px 15px;
+    gap: 12px;
     transition: right 0.4s ease;
-    z-index: 1000;
-    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
-    overflow-y: auto;
-  }
-
-  .burger-toggle:checked ~ .container {
-    right: 0;
-  }
-
-  .tags {
-    width: 100%;
-  }
-
-  .nav-btn {
-    display: block;
-    background-color: rgba(255, 0, 0, 0.65);
-    color: white;
-    padding: 12px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 14px;
-    transition: all 0.3s ease;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    text-align: center;
-  }
-
-  .nav-btn:hover {
-    background-color: #ff3366;
-    transform: translateX(-5px);
-  }
-
-  .name {
-    z-index: 1001;
-    font-size: 28px;
-  }
-
-  /* Hero Section - FIXED NO OVERLAP */
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    gap: 20px;
-    padding: 0 10px;
-  }
-
-  .video-circle {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid rgba(0, 231, 255, 0.6);
-    box-shadow: 0 0 15px rgba(0, 231, 255, 0.5);
-    flex-shrink: 0;
-  }
-
-  .vidio {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    mix-blend-mode: lighten;
-  }
-
-  .devloper {
-    font-size: 110%;
-    text-align: center;
-    color: whitesmoke;
-    font-family: sans-serif;
-    background-color: rgba(9, 69, 128, 0.3);
-    border-radius: 20px;
-    padding: 15px;
-    width: 95%;
-    margin-bottom: 10px;
-  }
-
-  /* Skills */
-  .text-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 5px 20px;
-    gap: 15px;
-    width: 100%;
-  }
-
-  .text {
-    text-align: center;
-    font-size: 15px;
-    background-color: rgba(9, 69, 128, 0.3);
-    color: whitesmoke;
-    border-radius: 20px;
-    width: 95%;
-    padding: 18px 12px;
-    line-height: 140%;
-    font-family: sans-serif;
-    font-weight: 300;
-    order: 2;
-  }
-
-  .svgs-left,
-  .svgs-right {
-    background: linear-gradient(135deg, rgba(0, 231, 255, 0.2), rgba(9, 69, 128, 0.3));
-    width: 95%;
-    border-radius: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    padding: 20px 10px;
-    place-items: center;
-  }
-
-  .svgs-left {
-    order: 1;
-  }
-
-  .svgs-right {
-    order: 3;
-  }
-
-  .svgs-left svg,
-  .svgs-right svg {
-    width: 40px;
-    height: auto;
-  }
-
-  .svg-text {
-    color: whitesmoke;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 5px;
-    font-family: sans-serif;
-    font-weight: 500;
-  }
-
-  .next-js {
-    color: whitesmoke;
-  }
-
-  .python {
-    background-color: white;
-    border-radius: 10px;
-    padding: 3px;
   }
 }
